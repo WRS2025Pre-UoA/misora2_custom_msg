@@ -23,6 +23,8 @@ find_package(sensor_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Custom.msg"
+  "msg/Pos.msg"
+  "msg/Digital.msg"
   DEPENDENCIES sensor_msgs
   )
 
