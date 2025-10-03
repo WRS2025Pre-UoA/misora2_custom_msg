@@ -2,3 +2,4 @@
 string id
 string result
 sensor_msgs/Image image
+string topic
